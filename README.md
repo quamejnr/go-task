@@ -5,8 +5,8 @@
 A simple REST API that simulates a long running task, using channels and goroutines.
 
 ## Running Program
-
-`cd` into the cmd sub directory and run `go run .`
+1. Clone the repo to your machine `git clone https://github.com/quamejnr/go-task.git`
+2. `cd` into the root directory and `cd` into the `cmd/` sub directory and run `go run .`
 
 > [!NOTE]
 > By default, program runs on port `4000`, creates sqlite3 db file `data.db` and long performing tasks take `30s`.
