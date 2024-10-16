@@ -13,8 +13,8 @@ A simple REST API that simulates a long running task, using channels and gorouti
 > You can pass in flags `--port`, `--dbName`, `taskTime` when running to change them
 > Example:
 >
-> ```go
-> go run . --port 8000 --dbName data.db
+> ```sh
+> go run . --port 8000 --dbName data.db --taskTime 10
 > ```
 
 ## Running Go tests
