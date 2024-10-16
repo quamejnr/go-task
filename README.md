@@ -21,7 +21,8 @@ A simple REST API that simulates a long running task, using channels and gorouti
 
 Run `go test ./...` from the root directory or `go test` from the cmd directory
 
-> [!NOTE] > `go test` creates another sqlite3 db, `test.db`, used for testing.
+> [!NOTE]
+> `go test` creates another sqlite3 db, `test.db`, used for testing.
 
 ## Testing API Endpoints
 
