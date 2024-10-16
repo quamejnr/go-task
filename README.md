@@ -9,10 +9,10 @@ A simple REST API that simulates a long running task, using channels and gorouti
 2. `cd` into the root directory and `cd` into the `cmd/` sub directory and run `go run .`
 
 > [!NOTE]
-> By default, program runs on port `4000`, creates sqlite3 db file `data.db` and long performing tasks take `30s`.
-> You can pass in flags `--port`, `--dbName`, `taskTime` when running to change them
-> Example:
+> By default, program runs on port `4000`, creates sqlite3 db `data.db` and tasks take `30s` to complete.
+> You can pass in flags `port`, `dbName`, `taskTime` when running code to change the defaults. 
 >
+> Example:
 > ```sh
 > go run . --port 8000 --dbName data.db --taskTime 10
 > ```
